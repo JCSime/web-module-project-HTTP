@@ -1,4 +1,6 @@
+import axios from 'axios';
 import React from 'react';
+import { ProgressPlugin } from 'webpack';
 
 const DeleteMovieModal = () => {
     return (<div id="deleteEmployeeModal">
